@@ -6,7 +6,7 @@ html {
 }
 body {
 font-family: 'Joan', serif;
- font-size: 18px;
+ font-size: 24px;
   font-weight: 400;
   line-height: 1.5;
   color: #4d2323;
@@ -67,14 +67,7 @@ a:active {
   border-bottom: 1px dashed;
 }
 
-.section-item a {
-  color: #829985;
-  text-decoration: none;  
-  transition: color 0.5s;
-}
-.section-item a:hover {
-  color: #4d2323;
-}
+
 .section-profile {
   width: 100%;
   border: 1px solid blue;
@@ -84,9 +77,12 @@ text-align: center;
     margin-right: auto
 }
 .section {
+position: relative;
   width: 50%;
   border: 1px solid blue;
   padding: 10px
+ 
+
 }
 @media (max-width: 768px) {
   .section {
@@ -94,24 +90,23 @@ text-align: center;
   }
 }
 .section-title {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 100;
   text-transform: uppercase;
   letter-spacing: 5px;
-  color: #829985;
+  color: #4B0082;
 }
 .avatar{
 weight: 300px;
 height: 400px;
 }
 .school-logo{
-  margin-left: auto;
-  margin-right: 0;
-  margin-top:auto;
-  margin-bottom: 0;
+   position: absolute;
+    right: 0; bottom: 0;
 }
-
-
+.code{
+overflow: auto;
+}
 
 
 
